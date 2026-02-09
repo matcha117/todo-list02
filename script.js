@@ -4,7 +4,7 @@ const todoList = document.getElementById('todo-list');
 
 //追加ボタンが押された時の処理
 addButton.addEventListener('click', () => {
-  const taskText = inputField.Value;
+  const taskText = inputField.value;
 
   if (taskText !== "") {  //空欄でない場合のみ追加
     const li =document.createElement('li');
@@ -22,4 +22,5 @@ addButton.addEventListener('click', () => {
     inputField.value = ""; //入力欄を空にする
   }
 })
+
 
