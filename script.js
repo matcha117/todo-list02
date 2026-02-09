@@ -18,7 +18,8 @@ addButton.addEventListener('click', () => {
       li.remove();
     });
 
-    todoList.apoendChild(li);
+    todoList.appendChild(li);
     inputField.value = ""; //入力欄を空にする
   }
 })
+
